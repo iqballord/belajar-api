@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["./node_modules/@types", "types/**/*.ts"]
-  },
-  "include": ["types/**/*.ts", "env.d.ts"]
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  }
 }
